@@ -12,11 +12,11 @@ import yaml
 # Load in the "pages" of the adventure.  Each "page" is a section of a YAML
 # file kept in the "adventures" subdirectory.  The first page of any
 # adventure is always page 1.
-def load_adventure(adv_file):
-    filename = adv_file + ".yaml"
+def load_adventure(adv):
+    filename = "adventures//" + adv + ".yaml"
     # Make sure that the requested adventure exists
     if not os.path.isfile(filename):
-        print("Can't find adventure %s." % adv_file)
+        print("Can't find adventure '%s'." % adv)
         sys.exit()
 
     # Read in the adventure file
