@@ -9,19 +9,18 @@ import yaml
 
 # Function defs
 
-# Load in the "pages" of the adventure.  Each "page" is kept in
-# a file in the directory named <adv_dir>.  The page files are
-# named "page1", "page2", "page#", and contain the page text and
-# the choices that can be made from that page.  The first page of
-# an adventure is always page 1.
+# Load in the "pages" of the adventure.  Each "page" is a section of a YAML
+# file kept in the "adventures" subdirectory.  The first page of any
+# adventure is always page 1.
 def load_adventure(adv_file):
+    filename = adv_file + ".yaml"
     # Make sure that the requested adventure exists
-    if not os.path.isfile(adv_file):
+    if not os.path.isfile(filename):
         print("Can't find adventure %s." % adv_file)
         sys.exit()
 
-    # Read in all the pages in the adv_file directory
-    with open(adv_file, 'r') as fh:
+    # Read in the adventure file
+    with open(filename, 'r') as fh:
         contents = fh.read()
         data = yaml.load(contents)
         
