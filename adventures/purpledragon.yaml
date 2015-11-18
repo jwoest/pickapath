@@ -1,0 +1,115 @@
+1:
+  text: |
+    You are a dragon, who lives in a cave at the top of a rocky mountain.  Your
+    scales are a beautiful, deep purple; your teeth are curved daggers; and your
+    breath can curdle milk at 20 yards.
+
+    This morning, you step out of your cave into the crisp air of spring.  Fluffy
+    clouds float lazily by on the breeze.  Far below in the green valley, you see
+    the castle of the local king.
+  choices:
+    2: Fly down into the valley.
+    3: Go back to sleep.
+
+2:
+  text: |
+    You spread your wings and take flight, coasting on the spring breeze.  A curious
+    eagle flys next to you for a while, until you turn and smile at it.  Your toothy
+    grin must have scared it, because it gives a squawk and flaps away in a hurry.
+
+    Looking down at the valley below, you see green pastures full of white sheep.  Your
+    stomach makes rumbling noises, reminding you that you haven't had breakfast yet.
+
+    Colorful banners flutter in the breeze on the castle towers.
+  choices:
+    4: Dive down and snatch a sheep for breakfast.
+    5: Fly to the castle for a visit.
+
+3:
+  text: |
+    Stupid sunny day.  It's way too nice for a fierce and grumpy dragon such as
+    yourself.  You head back into the darkness of your cave and lie down on your bed.
+    Maybe tomorrow's weather will be more suitable; maybe dark clouds and lightning.
+    Before long, the sound of your snores shakes the cave walls.
+
+    You are awakened by the sound of voices coming from the cave entrance.  Whoever it
+    is is whispering, and you can't quite make out what they're saying.
+  choices:
+    6: Wait and see who it is.
+    7: Invaders!  Breathe fire down the cave and burn whoever is invading.
+
+4:
+  text: |
+    You dive down steeply and grab an unsuspecting sheep in a taloned claw.  The other
+    sheep (and a terrified shepherd) flee as you settle down on the grass to eat your
+    breakfast.
+
+    The sheep is delicious.  You belch (scorching the grass in the process) and
+    then take to the air again.
+  choices:
+    5: Fly to the castle for a visit.
+
+5:
+  text: |
+    You land again in the courtyard of the castle.  No one needs to announce your
+    visit (it's pretty obvious when a large purple dragon is sitting in your castle),
+    and soon the heavy front doors of the tower burst open.  The king's daughter runs
+    into the courtyard and throws her arms around your long neck.
+
+    "I'm so glad you came to visit today!" she exclaims.  "What should we do?"
+  choices:
+    8: |- 
+      "Get your kettle - it's a beautiful day for a tea party!"
+    9: |-
+      "Don your helmet and sword - let's go harrass the sheep!"
+
+6:
+  text: |
+    You pretend to be asleep as the voices in the cave get closer.  Suddenly it gets
+    very quiet.  You are just about to open your eyes to see what's going on when -
+
+    "Surprise!"
+
+    Your eyes snap open, and you see your friend the princess standing there with the
+    other girls from her royal entourage.  They've come up the mountain to have a
+    surprise party for you.  There's no reason for it - they just felt like throwing
+    you a party.
+
+    You spend the rest of your day eating cake and drinking punch, and watching the
+    princess and her friends swim around in your great piles of treasure.
+
+7:
+  text: |
+    You open your mouth wide and send a bellyfull of firey death towards the cave
+    entrance.  There's a breif yell of surprise, and then silence.
+
+    You clomp to the cave entrance to see what's left of whoever it was.  All you see
+    is a slightly melted suit of armor and a pile of ash.  That's one knight who won't
+    be bothering you again!
+
+    You settle back down to sleep, and dream wonderful dreams of little knights roasting
+    on skewers.
+
+8:
+  text: |
+    The princess squees in delight.  With a clap of her hands, she orders the royal
+    servants to set up for a tea party in the castle garden.  You settle yourself down
+    at the table, crushing only a few of the garden's delicate flowers in the process.
+    
+    You and the princess spend the rest of your day drinking tea and discussing the
+    latest trends in ball gowns ("blech - so pink this year!") and making rude noises
+    with your armpits.
+
+9:
+  text: |
+    The princess runs back into the tower, and returns wearing a battered pail with eye
+    holes as a helmet and and carrying a wooden sword.  You lift her onto your back and
+    with a few beats of your wings you are both airborn and heading towards the
+    sheep pastures.
+
+    This is a game that you and the princess have played many times before, and the
+    shepherds all roll their eyes when they see you coming.  But there's nothing they
+    can do as you land on the grass and begin playfully nipping at the sheep while the
+    princess tries to whack them with her sword.  The two of you spend the rest of the
+    day chasing sheep and laying on your back watching the clouds.
+
